@@ -804,6 +804,7 @@ font-family: 'Raleway', sans-serif;
 
 .textarea-field {
     height: 120px;
+    font-size: 12px;
     padding: 8px 16px;
     resize: none;
 }
@@ -815,10 +816,7 @@ font-family: 'Raleway', sans-serif;
     color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-textarea {
-    font-size: 12px;
-    color: rgba(46, 47, 66, 0.4);
-}
+
 
 .checkbox-wrapper {
     margin-bottom: 24px;
