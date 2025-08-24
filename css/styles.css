@@ -785,9 +785,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 .input-icon {
-    display: inline-flex;
-        align-items: center;
-        justify-content: center;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -800,6 +797,7 @@ font-family: 'Raleway', sans-serif;
 
 .textarea-wrapper {
     margin-bottom: 16px;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .textarea-field {
@@ -847,7 +845,7 @@ font-family: 'Raleway', sans-serif;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
