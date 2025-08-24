@@ -670,6 +670,8 @@ font-family: 'Raleway', sans-serif;
     min-height: 584px;
     border-radius: 4px;
 
+    padding: 72px 24px 24px 24px;
+
     transform: translate(-50%, -50%);
 
     box-shadow:  1px 1px rgba(0, 0, 0, 0.14),
@@ -679,10 +681,11 @@ font-family: 'Raleway', sans-serif;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-backdrop:not(is-open) .modal {
+.backdrop:not(.is-open) .modal {
     transform: translate(-50%, -100%);
-    padding: 72px 24px 24px 24px;
 }
+   
+
 
 .modal-close {
     position: absolute;
