@@ -629,6 +629,8 @@ font-family: 'Raleway', sans-serif;
     margin-left: 16px;
     fill: #ffffff;
 }
+
+
 /* Backdrop */
 .backdrop{
     position: fixed;
@@ -675,7 +677,7 @@ font-family: 'Raleway', sans-serif;
 .backdrop:not(is-open) .modal{
     transform: translate(-50%, -50%);
 }
-/* ===== Modal base ===== */
+
 .modal {
     position: relative;
     padding: 72px 24px 24px 24px;
@@ -688,7 +690,7 @@ font-family: 'Raleway', sans-serif;
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* ===== Close button ===== */
+
 .modal-close {
     position: absolute;
     top: 24px;
@@ -723,7 +725,7 @@ font-family: 'Raleway', sans-serif;
     fill: #fff;
 }
 
-/* ===== Title ===== */
+
 .modal-title {
     font-weight: 500;
     font-size: 16px;
@@ -754,7 +756,7 @@ font-family: 'Raleway', sans-serif;
     margin-bottom: 4px;
 }
 
-/* Контейнер input + icon */
+
 .input-container {
     position: relative;
 }
@@ -783,6 +785,9 @@ font-family: 'Raleway', sans-serif;
 }
 
 .input-icon {
+    display: inline-flex;
+        align-items: center;
+        justify-content: center;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -810,6 +815,10 @@ font-family: 'Raleway', sans-serif;
     color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-textarea {
+    font-size: 12px;
+    color: rgba(46, 47, 66, 0.4);
+}
 
 .checkbox-wrapper {
     margin-bottom: 24px;
