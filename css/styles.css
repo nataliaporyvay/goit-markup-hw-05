@@ -807,13 +807,13 @@ font-family: 'Raleway', sans-serif;
     font-size: 12px;
     padding: 8px 16px;
     resize: none;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .textarea-field::placeholder {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
 }
 
 
