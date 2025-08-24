@@ -681,6 +681,7 @@ font-family: 'Raleway', sans-serif;
 }
 backdrop:not(is-open) .modal {
     transform: translate(-50%, -100%);
+    padding: 72px 24px 24px 24px;
 }
 
 .modal-close {
