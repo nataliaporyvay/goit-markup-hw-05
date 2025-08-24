@@ -655,31 +655,14 @@ font-family: 'Raleway', sans-serif;
         visibility: visible;
         pointer-events: auto;
 }
-.modal{
-    position: absolute;
-    top: 50%;
-    left: 50%;
 
-    width: 408px;
-    min-height: 584px;
-    border-radius: 4px;
-
-    transform: translate(-50%, -50%);
-
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    background-color: #fcfcfc;
-
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .backdrop:not(is-open) .modal{
     transform: translate(-50%, -50%);
 }
 
 .modal {
-    position: relative;
+    position: absolute;
     padding: 72px 24px 24px 24px;
     width: 408px;
     min-height: 584px;
@@ -692,7 +675,6 @@ font-family: 'Raleway', sans-serif;
 
 
 .modal-close {
-    position: absolute;
     top: 24px;
     right: 24px;
     width: 24px;
