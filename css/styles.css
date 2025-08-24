@@ -556,6 +556,8 @@ font-family: 'Raleway', sans-serif;
 .social-icon {
     fill: #f4f4fd;
 }
+
+/* Subscribe */
 .subscribe-block {
     display: flex;
     flex-direction: column;
@@ -627,8 +629,6 @@ font-family: 'Raleway', sans-serif;
     margin-left: 16px;
     fill: #ffffff;
 }
-
-
 /* Backdrop */
 .backdrop{
     position: fixed;
